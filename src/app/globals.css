@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Sansation';
+  src: url('/fonts/sansation/Sansation_Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Average';
+  src: url('/fonts/average/Average-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/fonts/inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width :0;  
+  
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
